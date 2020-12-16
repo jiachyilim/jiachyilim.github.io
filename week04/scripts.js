@@ -8,7 +8,7 @@ elUsername.addEventListener("keyup", transformUpperCase);
 
 function checkPasswordLength(){
     let password = document.getElementById("kataLaluan").value;
-    if(password.length < 5) {
+    if(password.length < 5){
         alert("Password must be more than 5 characters");
 
     } else {
@@ -16,5 +16,5 @@ function checkPasswordLength(){
     }
 }
 
-let elPassword = document.getElementById("kataLaluan")
+let elPassword = document.getElementById("kataLaluan");
 elPassword.onblur = checkPasswordLength;
