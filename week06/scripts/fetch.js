@@ -49,8 +49,8 @@ function BookNow(guestName, guestEmail, guestPax) {
         .then(json => {
             // Do something with object
             //console.log(json.booking);
-            let bookMsg = document.getElementById("bookMsg");
-            bookMsg.innerHTML = json.booking.name + " added!"
+            let bookingMsg = document.getElementById("bookMsg");
+            bookingMsg.innerHTML = json.booking.name + " added!"
             GetBookings();
         });
 }
