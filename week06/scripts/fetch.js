@@ -3,8 +3,9 @@ function GetBookings(){
     fetch(url)
     .then((response) => response.json())
     .then(json => {
-        // Do something with the data
+  // Do something with the data
   console.log(json.bookings);
+
 });
 }
 
